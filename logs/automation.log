@@ -1,0 +1,195 @@
+16:49:47.878 [main] INFO  - ***** Starting Scenario execution *****
+16:49:59.010 [main] INFO  - Browser launched and navigated to URL.
+16:49:59.022 [main] INFO  - User is on the Home Page
+16:49:59.073 [main] INFO  - Hovering over 'New Bikes' menu...
+16:49:59.383 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+16:50:02.638 [main] INFO  - Successfully clicked Bajaj
+16:50:02.640 [main] INFO  - Checking if its Royal Enfield Upcoming Bikes Page...
+16:50:12.745 [main] ERROR - Scenario FAILED: Verify upcoming bikes for different manufacturers
+16:50:12.970 [main] INFO  - ***** Ending Scenario execution *****
+16:50:19.444 [main] INFO  - ***** Starting Scenario execution *****
+16:50:26.254 [main] INFO  - Browser launched and navigated to URL.
+16:50:26.255 [main] INFO  - User is on the Home Page
+16:50:26.257 [main] INFO  - Hovering over 'New Bikes' menu...
+16:50:26.543 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+16:50:29.881 [main] INFO  - Successfully clicked Royal Enfield
+16:50:29.883 [main] INFO  - Checking if its Royal Enfield Upcoming Bikes Page...
+16:50:29.976 [main] INFO  - Verifying page header for: Royal Enfield
+16:50:32.319 [main] INFO  - Excel file generated with upcoming bikes.....
+16:50:32.319 [main] INFO  - Data export completed for: Royal Enfield
+16:50:32.320 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+16:50:32.320 [main] INFO  - ***** Ending Scenario execution *****
+16:50:37.078 [main] INFO  - ***** Starting Scenario execution *****
+16:50:41.598 [main] INFO  - Browser launched and navigated to URL.
+16:50:41.599 [main] INFO  - User is on the Home Page
+16:50:41.600 [main] INFO  - Hovering over 'New Bikes' menu...
+16:50:42.390 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+16:50:46.377 [main] INFO  - Successfully clicked TVS
+16:50:46.378 [main] INFO  - Checking if its Royal Enfield Upcoming Bikes Page...
+16:50:56.443 [main] ERROR - Scenario FAILED: Verify upcoming bikes for different manufacturers
+16:50:56.640 [main] INFO  - ***** Ending Scenario execution *****
+16:57:38.925 [main] INFO  - ***** Starting Scenario execution *****
+16:57:44.578 [main] INFO  - Browser launched and navigated to URL.
+16:57:44.585 [main] INFO  - User is on the Home Page
+16:57:44.630 [main] INFO  - Hovering over 'New Bikes' menu...
+16:57:45.531 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+16:57:49.544 [main] INFO  - Successfully clicked Bajaj
+16:57:49.588 [main] INFO  - Verifying page header for: Bajaj
+16:57:50.992 [main] INFO  - Excel file generated with upcoming bikes.....
+16:57:50.992 [main] INFO  - Data export completed for: Bajaj
+16:57:50.992 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+16:57:50.992 [main] INFO  - ***** Ending Scenario execution *****
+16:57:55.184 [main] INFO  - ***** Starting Scenario execution *****
+16:58:00.322 [main] INFO  - Browser launched and navigated to URL.
+16:58:00.322 [main] INFO  - User is on the Home Page
+16:58:00.323 [main] INFO  - Hovering over 'New Bikes' menu...
+16:58:00.768 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+16:58:04.879 [main] INFO  - Successfully clicked Royal Enfield
+16:58:04.923 [main] INFO  - Verifying page header for: Royal Enfield
+16:58:05.401 [main] INFO  - Excel file generated with upcoming bikes.....
+16:58:05.401 [main] INFO  - Data export completed for: Royal Enfield
+16:58:05.401 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+16:58:05.401 [main] INFO  - ***** Ending Scenario execution *****
+16:58:09.629 [main] INFO  - ***** Starting Scenario execution *****
+16:58:16.590 [main] INFO  - Browser launched and navigated to URL.
+16:58:16.591 [main] INFO  - User is on the Home Page
+16:58:16.592 [main] INFO  - Hovering over 'New Bikes' menu...
+16:58:16.867 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+16:58:20.180 [main] INFO  - Successfully clicked TVS
+16:58:20.230 [main] INFO  - Verifying page header for: TVS
+16:58:20.455 [main] INFO  - Excel file generated with upcoming bikes.....
+16:58:20.456 [main] INFO  - Data export completed for: TVS
+16:58:20.457 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+16:58:20.458 [main] INFO  - ***** Ending Scenario execution *****
+16:59:35.958 [main] INFO  - ***** Starting Scenario execution *****
+16:59:41.101 [main] INFO  - Browser launched and navigated to URL.
+16:59:41.118 [main] INFO  - User is on the Home Page
+16:59:41.163 [main] INFO  - Hovering over 'New Bikes' menu...
+16:59:41.930 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+16:59:45.831 [main] INFO  - Successfully clicked Royal Enfield
+16:59:45.891 [main] INFO  - Verifying page header for: Royal Enfield
+16:59:47.631 [main] INFO  - Excel file generated with upcoming bikes.....
+16:59:47.631 [main] INFO  - Data export completed for: Royal Enfield
+16:59:47.634 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+16:59:47.634 [main] INFO  - ***** Ending Scenario execution *****
+17:00:31.161 [main] INFO  - ***** Starting Scenario execution *****
+17:00:38.311 [main] INFO  - Browser launched and navigated to URL.
+17:00:38.321 [main] INFO  - User is on the Home Page
+17:00:38.400 [main] INFO  - Hovering over 'New Bikes' menu...
+17:00:38.699 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:00:42.065 [main] INFO  - Successfully clicked Royal Enfield
+17:00:42.168 [main] INFO  - Verifying page header for: Royal Enfield
+17:00:44.025 [main] INFO  - Excel file generated with upcoming bikes.....
+17:00:44.026 [main] INFO  - Data export completed for: Royal Enfield
+17:00:44.028 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:00:44.028 [main] INFO  - ***** Ending Scenario execution *****
+17:00:50.121 [main] INFO  - ***** Starting Scenario execution *****
+17:00:56.668 [main] INFO  - Browser launched and navigated to URL.
+17:00:56.670 [main] INFO  - User is on the Home Page
+17:00:56.673 [main] INFO  - Hovering over 'New Bikes' menu...
+17:00:56.935 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:01:00.355 [main] INFO  - Successfully clicked Yamaha
+17:01:00.414 [main] INFO  - Verifying page header for: Yamaha
+17:01:01.042 [main] INFO  - Excel file generated with upcoming bikes.....
+17:01:01.042 [main] INFO  - Data export completed for: Yamaha
+17:01:01.042 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:01:01.042 [main] INFO  - ***** Ending Scenario execution *****
+17:06:49.419 [main] INFO  - ***** Starting Scenario execution *****
+17:06:56.692 [main] INFO  - Browser launched and navigated to URL.
+17:06:56.692 [main] INFO  - User is on the Home Page
+17:06:56.758 [main] INFO  - Hovering over 'New Bikes' menu...
+17:06:57.093 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:07:00.216 [main] INFO  - Successfully clicked Royal Enfield
+17:07:00.253 [main] INFO  - Verifying page header for: Royal Enfield
+17:07:02.022 [main] INFO  - Excel sheet created for: Royal Enfield
+17:07:02.038 [main] INFO  - Data export completed for: Royal Enfield
+17:07:02.038 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:07:02.038 [main] INFO  - ***** Ending Scenario execution *****
+17:07:06.650 [main] INFO  - ***** Starting Scenario execution *****
+17:07:13.683 [main] INFO  - Browser launched and navigated to URL.
+17:07:13.684 [main] INFO  - User is on the Home Page
+17:07:13.686 [main] INFO  - Hovering over 'New Bikes' menu...
+17:07:13.968 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:07:17.286 [main] INFO  - Successfully clicked Yamaha
+17:07:17.364 [main] INFO  - Verifying page header for: Yamaha
+17:07:18.159 [main] INFO  - Excel sheet created for: Yamaha
+17:07:18.159 [main] INFO  - Data export completed for: Yamaha
+17:07:18.175 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:07:18.175 [main] INFO  - ***** Ending Scenario execution *****
+17:11:04.112 [main] INFO  - ***** Starting Scenario execution *****
+17:11:09.729 [main] INFO  - Browser launched and navigated to URL.
+17:11:09.734 [main] INFO  - User is on the Home Page
+17:11:09.771 [main] INFO  - Hovering over 'New Bikes' menu...
+17:11:10.345 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:11:15.132 [main] INFO  - Successfully clicked Royal Enfield
+17:11:15.177 [main] INFO  - Verifying page header for: Royal Enfield
+17:11:16.712 [main] ERROR - Excel Export Failed for Royal Enfield: .\testData\UpcomingBikes.xlsx (The process cannot access the file because it is being used by another process)
+17:11:16.712 [main] INFO  - Data export completed for: Royal Enfield
+17:11:16.712 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:11:16.712 [main] INFO  - ***** Ending Scenario execution *****
+17:11:21.029 [main] INFO  - ***** Starting Scenario execution *****
+17:11:27.781 [main] INFO  - Browser launched and navigated to URL.
+17:11:27.782 [main] INFO  - User is on the Home Page
+17:11:27.783 [main] INFO  - Hovering over 'New Bikes' menu...
+17:11:28.076 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:11:31.654 [main] INFO  - Successfully clicked Yamaha
+17:11:31.688 [main] INFO  - Verifying page header for: Yamaha
+17:11:32.748 [main] ERROR - Excel Export Failed for Yamaha: .\testData\UpcomingBikes.xlsx (The process cannot access the file because it is being used by another process)
+17:11:32.748 [main] INFO  - Data export completed for: Yamaha
+17:11:32.748 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:11:32.748 [main] INFO  - ***** Ending Scenario execution *****
+17:13:45.082 [main] INFO  - ***** Starting Scenario execution *****
+17:13:50.247 [main] INFO  - Browser launched and navigated to URL.
+17:13:50.253 [main] INFO  - User is on the Home Page
+17:13:50.293 [main] INFO  - Hovering over 'New Bikes' menu...
+17:13:50.830 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:13:55.232 [main] INFO  - Successfully clicked Royal Enfield
+17:13:55.283 [main] INFO  - Verifying page header for: Royal Enfield
+17:13:56.823 [main] INFO  - Excel sheet created for: Royal Enfield
+17:13:56.823 [main] INFO  - Data export completed for: Royal Enfield
+17:13:56.823 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:13:56.823 [main] INFO  - ***** Ending Scenario execution *****
+17:14:00.815 [main] INFO  - ***** Starting Scenario execution *****
+17:14:07.560 [main] INFO  - Browser launched and navigated to URL.
+17:14:07.561 [main] INFO  - User is on the Home Page
+17:14:07.563 [main] INFO  - Hovering over 'New Bikes' menu...
+17:14:07.880 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:14:11.248 [main] INFO  - Successfully clicked Yamaha
+17:14:11.293 [main] INFO  - Verifying page header for: Yamaha
+17:14:12.057 [main] INFO  - Excel sheet created for: Yamaha
+17:14:12.057 [main] INFO  - Data export completed for: Yamaha
+17:14:12.057 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:14:12.057 [main] INFO  - ***** Ending Scenario execution *****
+17:14:16.479 [main] INFO  - ***** Starting Scenario execution *****
+17:14:20.991 [main] INFO  - Browser launched and navigated to URL.
+17:14:20.992 [main] INFO  - User is on the Home Page
+17:14:20.993 [main] INFO  - Hovering over 'New Bikes' menu...
+17:14:21.540 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:14:25.387 [main] INFO  - Successfully clicked TVS
+17:14:25.425 [main] INFO  - Verifying page header for: TVS
+17:14:25.723 [main] INFO  - Excel sheet created for: TVS
+17:14:25.723 [main] INFO  - Data export completed for: TVS
+17:14:25.723 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:14:25.723 [main] INFO  - ***** Ending Scenario execution *****
+17:14:29.679 [main] INFO  - ***** Starting Scenario execution *****
+17:14:36.458 [main] INFO  - Browser launched and navigated to URL.
+17:14:36.458 [main] INFO  - User is on the Home Page
+17:14:36.459 [main] INFO  - Hovering over 'New Bikes' menu...
+17:14:36.719 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:14:39.975 [main] INFO  - Successfully clicked Bajaj
+17:14:40.004 [main] INFO  - Verifying page header for: Bajaj
+17:14:40.306 [main] INFO  - Excel sheet created for: Bajaj
+17:14:40.306 [main] INFO  - Data export completed for: Bajaj
+17:14:40.306 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:14:40.306 [main] INFO  - ***** Ending Scenario execution *****
+17:14:44.733 [main] INFO  - ***** Starting Scenario execution *****
+17:14:49.758 [main] INFO  - Browser launched and navigated to URL.
+17:14:49.758 [main] INFO  - User is on the Home Page
+17:14:49.762 [main] INFO  - Hovering over 'New Bikes' menu...
+17:14:50.309 [main] INFO  - Clicking on 'Upcoming Bikes' option...
+17:14:53.998 [main] INFO  - Successfully clicked Hero Moto Corp
+17:14:54.051 [main] INFO  - Verifying page header for: Hero Moto Corp
+17:14:54.285 [main] INFO  - Excel sheet created for: Hero Moto Corp
+17:14:54.285 [main] INFO  - Data export completed for: Hero Moto Corp
+17:14:54.285 [main] INFO  - Scenario PASSED: Verify upcoming bikes for different manufacturers
+17:14:54.286 [main] INFO  - ***** Ending Scenario execution *****

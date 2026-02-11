@@ -57,8 +57,9 @@ public class BaseClass
         return p;
     }
 
-    public static Logger getLogger() {
-        logger = LogManager.getLogger(); 
+    public static Logger getLogger() 
+    {   
+        logger = LogManager.getLogger(BaseClass.class); 
         return logger;
     }
 }
