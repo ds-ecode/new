@@ -44,7 +44,7 @@ public class Basic {
     @Then("user exports filtered bikes to excel for {string}")
     public void user_exports_filtered_bikes_to_excel_for(String manufacturer) {
         // Passing the brand name to the utility so the Excel sheet is named correctly
-        ub.exportBikesToExcel(manufacturer);
+        ub.exportToExcel(manufacturer);
         BaseClass.getLogger().info("Data export completed for: " + manufacturer);
     }
 }

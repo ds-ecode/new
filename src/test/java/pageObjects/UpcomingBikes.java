@@ -26,9 +26,6 @@ public class UpcomingBikes extends BasePage
 	@FindBy(xpath="//h1[contains(text(),'Upcoming')]")
 	WebElement confirmMsg;
 	
-//	@FindBy(xpath = "//a[normalize-space()='Royal Enfield']")
-//    WebElement brandRoyalEnfield;
-	
 	@FindBy(xpath = "//li[contains(@class,'modelItem')]")
 	List<WebElement> bikeList;
 	
@@ -36,23 +33,7 @@ public class UpcomingBikes extends BasePage
 	{
 		return confirmMsg.getText();
 	}
-	
-//	public void selectRoyalEnfieldBrand() {
-//		JavascriptExecutor js = (JavascriptExecutor) driver;
-//	    try {
-//	        // Scroll so you can see it in the demo
-//	        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", brandRoyalEnfield);
-//	        Thread.sleep(1000); // Give the site a moment to stabilize
-//	        
-//	        // Use JS click immediately to avoid interception
-//	        js.executeScript("arguments[0].click();", brandRoyalEnfield);
-//	        logger.info("Successfully clicked Royal Enfield....");
-//	        
-//	    } catch (Exception e) {
-//	        logger.error("Could not click Royal Enfield brand link: " + e.getMessage());
-//	    }
-//	}
-	
+		
 	// Replace the hardcoded brandRoyalEnfield WebElement with this method
 	public void selectBrand(String brandName) {
 	    // Dynamic XPath to find any brand name link
@@ -67,41 +48,30 @@ public class UpcomingBikes extends BasePage
 	        logger.error("Could not click brand: " + brandName);
 	    }
 	}
-
 	
-	// Update this method in your UpcomingBikes class
-	public void exportBikesToExcel(String brandName) {
+	public void exportToExcel(String brandName) {
 	    List<String[]> excelData = new ArrayList<>();
+	    // Headers must match your image exactly
+	    String[] headers = {"TimeStamp", "Bike Name", "Price", "Launch Date"};
 	    
 	    for (WebElement bike : bikeList) {
 	        try {
-	            // Your existing scraping logic here...
 	            String name = bike.findElement(By.xpath(".//a[@data-track-label='model-name']/strong")).getAttribute("textContent").trim();
 	            String priceText = bike.getAttribute("data-price").trim();
-	            String dateRaw = bike.findElement(By.xpath(".//div[contains(@class,'clr-try')]")).getAttribute("textContent").trim();
-	            String date = dateRaw.replace("Expected Launch :", "").trim();
+	            String numericPrice = priceText.replaceAll("[^0-9]", ""); 
+	            String date = bike.findElement(By.xpath(".//div[contains(@class,'clr-try')]")).getAttribute("textContent").replace("Expected Launch :", "").trim();
 
-	            double priceValue = parsePrice(priceText);
-
-	            if (priceValue == 0) {
-	                excelData.add(new String[]{name, "Price To Be Announced", date});
+	            if (parsePrice(priceText) <= 400000) {
+	                // First element is placeholder for TimeStamp (handled in Utility)
+	                excelData.add(new String[]{"", name, numericPrice, date});
 	            }
-	            else if(priceValue > 0 && priceValue <= 400000)
-	            {
-	            	excelData.add(new String[]{name, priceText, date});
-	            }
-	        } catch (Exception e) {
-	            continue;
-	        }
+	        } catch (Exception e) { continue; }
 	    }
-
+	    
 	    try {
-	        // Now passing the dynamic 'brandName' for the sheet name
-	        ExcelUtils.writeToExcel("./testData/UpcomingBikes.xlsx", brandName, excelData);
-	        logger.info("Excel sheet created for: " + brandName);
-	    } catch (Exception e) {
-	        logger.error("Excel Export Failed for " + brandName + ": " + e.getMessage());
-	    }
+	        ExcelUtils.writeToExcel("./testData/UpcomingBikes.xlsx", brandName, excelData, headers);
+	        logger.info("Excel generated for " + brandName + " with TimeStamp column.");
+	    } catch (Exception e) { e.printStackTrace(); }
 	}
 	
 	// Helper method to turn "Rs. 3.50 Lakh" into 3.50

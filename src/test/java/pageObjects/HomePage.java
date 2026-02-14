@@ -25,7 +25,14 @@ public class HomePage extends BasePage
 	@FindBy(linkText ="Upcoming Bikes")
 	WebElement upcoming_Bikes;
 	
-	public void selectUpcomingBikes() {
+	@FindBy(xpath="//span[normalize-space()='MORE']")
+	WebElement more_icon;
+	
+	@FindBy(linkText ="Used Cars")
+	WebElement used_cars;
+	
+	public void selectUpcomingBikes() 
+	{
 		
 		logger.info("Hovering over 'New Bikes' menu...");
 		
@@ -42,5 +49,24 @@ public class HomePage extends BasePage
         logger.info("Clicking on 'Upcoming Bikes' option...");
         upcoming_Bikes.click();
     }
+	
+	public void selectUsedCars() 
+	{
+		
+		logger.info("Hovering over 'More' menu...");
+		
+        Actions actions = new Actions(driver);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
+        // Hover over the main menu
+        wait.until(ExpectedConditions.visibilityOf(more_icon));
+        actions.moveToElement(more_icon).perform();
+
+        // Wait for dropdown item to be visible and click it
+        wait.until(ExpectedConditions.elementToBeClickable(used_cars));
+        
+        logger.info("Clicking on 'Used Cars' option...");
+        used_cars.click();
+    }
+	
 }
